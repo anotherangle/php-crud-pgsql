@@ -1,0 +1,9 @@
+CREATE TABLE public."user"
+(
+    id serial NOT NULL,
+    name character varying(250),
+    email character varying(250),
+    mobile_no bigint,
+    address text,
+    PRIMARY KEY (id)
+)
